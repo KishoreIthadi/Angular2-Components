@@ -1,0 +1,47 @@
+{
+  "name": "angular2-components",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "start": "concurrently \"npm run build:watch\" \"lite-server\""
+  },
+  "dependencies": {
+    "@angular/common": "~2.4.0",
+    "@angular/compiler": "~2.4.0",
+    "@angular/core": "~2.4.0",
+    "@angular/platform-browser": "~2.4.0",
+    "@angular/platform-browser-dynamic": "~2.4.0",
+    "ui-router-ng2": "^1.0.0-beta.4",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.1",
+    "systemjs": "0.19.40",
+    "zone.js": "^0.7.4",
+    "typescript": "^2.1.6",
+    "jquery": "^3.2.0",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "@types/node": "^7.0.5"
+  },
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-inline-ng2-styles": "0.0.1",
+    "gulp-inline-ng2-template": "^4.0.0",
+    "gulp-typescript": "^3.1.4",
+    "lite-server": "^2.2.2",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KishoreIthadi/Angular2-Components.git"
+  },
+  "author": "kishore.ithadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KishoreIthadi/Angular2-Components/issues"
+  },
+  "homepage": "https://github.com/KishoreIthadi/Angular2-Components#readme"
+}

@@ -1,0 +1,19 @@
+.rating ul {
+    list-style: none !important;
+    display: inline-flex !important;
+    color: #673ab7;
+    padding: 0;
+    margin: 0;
+}
+
+.rating ul li {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.rating p {
+    font-size: 10px;
+}

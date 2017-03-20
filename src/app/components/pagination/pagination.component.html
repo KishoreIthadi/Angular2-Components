@@ -1,0 +1,17 @@
+<div *ngIf="pages" [ngClass]="[cssclass===undefined? 'custompagination' :cssclass]">
+  <ul>
+    <li>
+      <button [disabled]="selectedpage === 1" (click)=pageChange(selectedpage-1) [ngClass]="[previousbtncss===undefined? 'btn btn-primary glyphicon glyphicon-menu-left': previousbtncss ]">
+      </button>
+    </li>
+    <li *ngFor="let page of pages" (click)=pageChange(page)>
+      <button [ngClass]="[btncss===undefined? 'btn': btncss, page===selectedpage ? selectedcss ===undefined?'btn-primary':selectedcss : '']">
+        {{page}}
+      </button>
+    </li>
+    <li>
+      <button [disabled]="selectedpage === totalpages" (click)=pageChange(selectedpage+1) [ngClass]="[nextbtncss===undefined? 'btn btn-primary glyphicon glyphicon-menu-right': nextbtncss ]">
+      </button>
+    </li>
+  </ul>
+</div>

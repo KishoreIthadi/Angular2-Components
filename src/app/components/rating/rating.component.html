@@ -1,0 +1,13 @@
+<div [ngClass]="[ratingcss===undefined?'rating':ratingcss ]">
+    <ul>
+        <li *ngFor="let rating of starCountArray;let i = index;" (click)="ratingSelected()">
+            <i *ngIf="rating===0.5" [ngClass]="[halfstarcss===undefined?'fa fa-star-half-o': halfstarcss]" (mouseenter)="ratingMouseEnter(i+1)"
+                (mouseleave)="ratingMouseLeave()"></i>
+            <i *ngIf="rating===1" [ngClass]="[fullstarcss===undefined?'fa fa-star':fullstarcss]" (mouseenter)="ratingMouseEnter(i+1)"
+                (mouseleave)="ratingMouseLeave()"></i>
+            <i *ngIf="rating===0" [ngClass]="[emptystarcss===undefined?'fa fa-star-o':emptystarcss]" (mouseenter)="ratingMouseEnter(i+1)"
+                (mouseleave)="ratingMouseLeave()"></i>
+        </li>
+        <p *ngIf="displayratingtext==='true'">{{rating}}</p>
+    </ul>
+</div>
