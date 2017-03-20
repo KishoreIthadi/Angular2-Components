@@ -4,7 +4,9 @@ This project consists of angular2 components like pagination, rating etc.
 
 ### Examples
 
-`https://kishoreithadi.github.io/Angular2-Components/`
+```link
+https://kishoreithadi.github.io/Angular2-Components/
+```
 
 ### Installation
 
@@ -25,7 +27,7 @@ npm install --save Angular2-Comps
 
 ### Getting started
 
-#### Step 1: Install Angular Material 
+#### Step 1: Install Angular2-Comps Package
 
 ```bash
 npm install --save angular2-comps
