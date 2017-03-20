@@ -1,6 +1,6 @@
 {
   "name": "angular2-comps",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "angular 2 components : pagination, rating etc",
   "dependencies": {
     "@angular/common": "~2.4.0",

@@ -30,8 +30,15 @@ gulp.task('copy-readme', function () {
         .pipe(gulp.dest('dist/npm-build/'));
 });
 
+// Copy readme ****************************************************************************************
+
+gulp.task('copy-MIT', function () {
+    return gulp.src('LICENSE')
+        .pipe(gulp.dest('dist/npm-build/'));
+});
+
 // builds npm package**********************************************************************************
 
 gulp.task('build-npm', function (done) {
-    runSequence('tsc', 'copy-components', 'copy-npmpublish-files', 'remove-jscode', 'copy-readme', done);
+    runSequence('tsc', 'copy-components', 'copy-npmpublish-files', 'remove-jscode', 'copy-readme','copy-MIT', done);
 });
