@@ -32,6 +32,7 @@ body {
     color: #fff !important;
 }
 
+
 /* Side Navigation */
 
 @media(min-width:768px) {
@@ -83,4 +84,15 @@ body {
 
 .mar0 {
     padding: 0;
+}
+
+
+/* code container */
+
+.codecontainer span{
+    margin: 25px;
+}
+.codecontainer .startelement,
+.codecontainer .endelement {
+    margin: 0 !important;
 }
