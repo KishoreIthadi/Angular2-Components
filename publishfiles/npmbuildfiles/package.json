@@ -1,7 +1,7 @@
 {
   "name": "angular2-comps",
-  "version": "1.0.0",
-  "description": "angular 2 components : pagination & rating",
+  "version": "1.0.2",
+  "description": "angular 2 components : pagination, rating etc",
   "dependencies": {
     "@angular/common": "~2.4.0",
     "@angular/compiler": "~2.4.0",
@@ -13,12 +13,19 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.0"
   },
+  "keywords": [
+    "angular2",
+    "rating",
+    "pagination",
+    "components",
+    "angular2 components"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KishoreIthadi/Angular2-Components.git"
   },
   "author": "kishore.ithadi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/KishoreIthadi/Angular2-Components/issues"
   },
