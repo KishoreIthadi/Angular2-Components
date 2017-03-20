@@ -4,8 +4,8 @@ This project consists of angular2 components like pagination, rating etc.
 
 ### Examples
 
-```link
-[https://kishoreithadi.github.io/Angular2-Components/](https://kishoreithadi.github.io/Angular2-Components/)
+```
+https://kishoreithadi.github.io/Angular2-Components/
 ```
 http://github.com - automatic!
 [GitHub](http://github.com)
