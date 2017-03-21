@@ -1,0 +1,45 @@
+<h3 class="pad0 mar0">
+    Messages
+</h3>
+<hr>
+
+<button class="btn btn-success" (click)="successClick()">Success</button>
+<button class="btn btn-danger" (click)="dangerClick()">Danger</button>
+<button class="btn btn-info" (click)="infoClick()">Info</button>
+<button class="btn btn-warning" (click)="warningClick()">Warning</button>
+
+<br/>
+<br/>
+
+<h4>Markup</h4>
+<pre class="codecontainer">
+    <code>
+        <span class="startelement">&lt;messages&gt;</span>
+        <span class="endelement">&lt;/messages&gt;</span>
+     </code>
+</pre>
+<br/>
+
+<h4>Component Code</h4>
+<p>
+    This component comes up with MessagingService & MessagingComponent. It is better to declare the messaging component at root
+    level in the main module. Where ever you need the messages to be shown, Inject MessagesService into your component constructor
+    and use it as shown below.
+</p>
+<p>
+    The MessagesService have set method which takes two arguments message and CSS class. By default, the component comes with
+    four classes messages_success, messages_danger, messages_warning & messages_info. You can pass your own classes and override
+    the existing styles.
+</p>
+<pre class="codecontainer">
+    <code>
+        <span class="startelement">constructor(private messagesService: MessagesService)&#123; &#125; </span>
+        <span></span>
+        <span class="startelement">click() &#123;</span>
+        <span>this.messagesService.SetMessage("Success Message", "messages_success");</span>
+        <span>this.messagesService.SetMessage("Warning Message", "messages_warning");</span>
+        <span>this.messagesService.SetMessage("Error Message", "messages_danger");</span>
+        <span>this.messagesService.SetMessage("Info Message", "messages_info");</span>
+        <span class="endelement">&#125;</span>
+     </code>
+</pre>
