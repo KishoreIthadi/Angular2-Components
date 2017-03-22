@@ -22,17 +22,14 @@
 
 <h4>Component Code</h4>
 <p>
-    This component comes up with MessagingService & MessagingComponent. It is better to declare the messaging component at root
-    level in the main module. Where ever you need the messages to be shown, Inject MessagesService into your component constructor
-    and use it as shown below.
-</p>
-<p>
-    The MessagesService have set method which takes two arguments message and CSS class. By default, the component comes with
-    four classes messages_success, messages_danger, messages_warning & messages_info. You can pass your own classes and override
-    the existing styles.
+    You have to import and inject MessagesService into your component constructor and use it as shown below.The MessagesService
+    have set method which takes two arguments message and CSS class. By default, the component comes with four classes messages_success,
+    messages_danger, messages_warning & messages_info. You can pass your own classes and override the existing styles.
 </p>
 <pre class="codecontainer">
     <code>
+        <span class="startelement">import &#123; MessagesService &#125; from 'angular2-comps'; </span>
+        <span></span>
         <span class="startelement">constructor(private messagesService: MessagesService)&#123; &#125; </span>
         <span></span>
         <span class="startelement">click() &#123;</span>

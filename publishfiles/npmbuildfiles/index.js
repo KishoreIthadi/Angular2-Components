@@ -8,3 +8,4 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 __export(require("./components/angular2comps.module"));
+__export(require("./components/messages/messages.service"));

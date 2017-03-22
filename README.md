@@ -65,7 +65,7 @@ import { Angular2CompsModule } from 'angular2-comps'
 export class AppModule { }
 ```
 
-#### Step 3: Include BootStrap & Font Awesome
+#### Step 4: Include BootStrap & Font Awesome
 
 Include bootstrap & font Awesome links for giving default styles. Later you can override the default styles based on your requirement.
 
