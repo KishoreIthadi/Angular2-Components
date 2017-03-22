@@ -1,24 +1,23 @@
 {
   "name": "angular2-comps",
-  "version": "1.0.3",
-  "description": "angular 2 components : pagination, rating etc",
+  "version": "1.0.4",
+  "description": "angular 2 components : pagination, rating, messages etc",
   "dependencies": {
     "@angular/common": "~2.4.0",
     "@angular/compiler": "~2.4.0",
     "@angular/core": "~2.4.0",
     "@angular/platform-browser": "~2.4.0",
-    "@angular/platform-browser-dynamic": "~2.4.0",
     "typescript": "^2.1.6",
-    "bootstrap": "^3.3.7",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.2.0"
+    "@types/node": "^7.0.5"
   },
   "keywords": [
     "angular2",
     "rating",
     "pagination",
+    "messages",
     "components",
-    "angular2 components"
+    "angular2 components",
+    "angular2-comps"
   ],
   "repository": {
     "type": "git",

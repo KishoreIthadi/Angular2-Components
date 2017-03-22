@@ -1,2 +1,1 @@
-export * from './components/pagination/pagination.component';
-export * from './components/rating/rating.component';
+export * from './components/angular2comps.module';

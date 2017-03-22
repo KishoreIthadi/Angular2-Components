@@ -1,7 +1,7 @@
 import { NgModule, enableProdMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ExamplesModule } from './examples/examples.module';
-import { ComponentsModule } from './components/components.module';
+import { Angular2CompsModule } from './components/angular2comps.module';
 import { AppComponent } from './app.component';
 
 import { trace, Category, UIRouterModule } from "ui-router-ng2";
@@ -15,7 +15,7 @@ enableProdMode();
   imports: [
     BrowserModule,
     ExamplesModule,
-    ComponentsModule,
+    Angular2CompsModule,
     UIRouterModule.forRoot(
       {
         states: MAIN_STATES,

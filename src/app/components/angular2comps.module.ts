@@ -13,4 +13,4 @@ import { MessagesService } from './messages/messages.service'
   providers: [MessagesService]
 })
 
-export class ComponentsModule { }
+export class Angular2CompsModule { }
