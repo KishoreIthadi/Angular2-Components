@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 
 import { PaginationExComponent } from './paginationEx/paginationEx.component';
 import { RatingExComponent } from './ratingEx/ratingEx.component';
