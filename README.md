@@ -4,17 +4,17 @@ This project consists of angular2 components like pagination, rating etc.
 
 ### Examples
 
-```link
-https://kishoreithadi.github.io/Angular2-Components/
-```
+<big><pre>
+[https://kishoreithadi.github.io/Angular2-Components/](https://kishoreithadi.github.io/Angular2-Components/)
+</pre></big>
 
 ### GitHub
 
 You can view and download the source code from
 
-```link
-https://github.com/KishoreIthadi/Angular2-Components
-```
+<big><pre>
+[https://github.com/KishoreIthadi/Angular2-Components](https://github.com/KishoreIthadi/Angular2-Components)
+</pre></big>
 
 ### Components
 
