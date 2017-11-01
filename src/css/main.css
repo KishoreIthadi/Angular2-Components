@@ -89,10 +89,16 @@ body {
 
 /* code container */
 
-.codecontainer span{
+.codecontainer span {
     margin: 25px;
 }
+
 .codecontainer .startelement,
 .codecontainer .endelement {
     margin: 0 !important;
+}
+
+pre {
+    padding: 0;
+    margin: 0;
 }

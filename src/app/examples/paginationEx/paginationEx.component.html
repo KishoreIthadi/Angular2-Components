@@ -3,20 +3,12 @@
 </h3>
 <hr/>
 
-<pagination 
-    totalrecords="103" 
-    pagesize="10" 
-    pagescount="5" 
-    selectedpage="1" 
-    (onPageChange)="onPageChange($event)" 
-    previousbtncss="btn btn-primary glyphicon glyphicon-menu-left"
-    nextbtncss="btn btn-primary glyphicon glyphicon-menu-right" 
-    btncss="btn" selectedcss="btn-primary" 
-    cssclass="custompagination">
+<pagination totalrecords="103" pagesize="10" pagescount="5" selectedpage="1" (onPageChange)="onPageChange($event)" previousbtncss="btn btn-primary glyphicon glyphicon-menu-left"
+    nextbtncss="btn btn-primary glyphicon glyphicon-menu-right" btncss="btn" selectedcss="btn-primary" cssclass="custompagination">
 </pagination>
 <br/>
 
-<h3>Markup</h3>
+<h4>Markup</h4>
 <pre class="codecontainer">
     <code>
         <span class="startelement">&lt;pagination</span>
@@ -31,5 +23,22 @@
         <span>selectedcss="btn-primary"</span>
         <span>cssclass="custompagination"&gt;</span>
         <span class="endelement">&lt;/pagination&gt;</span>
+     </code>
+</pre>
+<br/>
+
+<h4>Component Code</h4>
+<p>The component comes with the onRatingSelected event as you can see in the above markup. This event will fire whenever the
+    user selects a page/next/previous buttons. This event has one argument which will return selected page number. This event
+    can be used to fetch records from DB based on the selected page number.
+</p>
+<p>The style properties(previousbtncss, nextbtncss, btncss, selectedcss, cssclass) are optional. If user dosent provide with
+    any value the default will be applied.
+</p>
+<pre class="codecontainer">
+    <code>
+        <span class="startelement">onPageChange(selectedPage: number) &#123;</span>
+        <span></span>
+        <span class="endelement">&#125;</span>
      </code>
 </pre>

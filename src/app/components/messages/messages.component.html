@@ -1,0 +1,8 @@
+<div class="messages" [ngClass]="[displayclass]">
+  <div [ngClass]="[cssclass===undefined? 'messages_success' : cssclass] ">
+    <span aria-hidden="true " class="closemessages" (click)="MessageClose() ">&times;</span>
+    <div>
+      {{message}}
+    </div>
+  </div>
+</div>

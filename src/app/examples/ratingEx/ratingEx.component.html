@@ -3,22 +3,12 @@
 </h3>
 <hr>
 
-<rating 
-   rating ="3.5" 
-   starCount ="5" 
-   ratingID ="10"
-   displayratingtext ="true"
-   ratingcss= "rating"
-   halfstarcss= "fa fa-star-half-o"
-   fullstarcss= "fa fa-star"
-   emptystarcss= "fa fa-star-o"
-   (onRatingSelected) = "onRatingSelected($event)" 
-   disable ="false"
-   >
+<rating rating="3.5" starCount="5" ratingID="10" displayratingtext="true" ratingcss="rating" halfstarcss="fa fa-star-half-o"
+    fullstarcss="fa fa-star" emptystarcss="fa fa-star-o" (onRatingSelected)="onRatingSelected($event)" disable="false">
 </rating>
 <br/>
 
-<h3>Markup</h3>
+<h4>Markup</h4>
 <pre class="codecontainer">
     <code>
         <span class="startelement">&lt;rating</span>
@@ -33,5 +23,24 @@
         <span>(onRatingSelected) = "onRatingSelected($event)" </span>
         <span>disable ="false"&gt;</span>
         <span class="endelement">&lt;/rating&gt;</span>
+     </code>
+</pre>
+<br/>
+
+<h4>Component Code</h4>
+<p>The component comes with the onRatingSelected event as you can see in the above markup. This event will fire whenever the
+    user selects a rating. This event has one argument which will return selected rating and selected ratingID(if any). This
+    event can be used write logic to update the DB. The rating property of the component can be updated in this event as
+    rating value can also be average rating.
+</p>
+<p>The style properties(ratingcss, halfstarcss, fullstarcss, emptystarcss) are optional. If user dosent provide with any value
+    the default will be applied.
+</p>
+<pre class="codecontainer">
+    <code>
+        <span class="startelement">onRatingSelected(obj: any) &#123;</span>
+        <span>//obj.selectedRating</span> 
+        <span>//obj.ratingID</span>
+        <span class="endelement">&#125;</span>
      </code>
 </pre>
