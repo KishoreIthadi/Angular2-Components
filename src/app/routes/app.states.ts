@@ -5,7 +5,6 @@ import { PaginationExComponent } from '.././examples/paginationEx/paginationEx.c
 import { MessagesExComponent } from '.././examples/messagesEx/messagesEx.component';
 
 export let MAIN_STATES: Ng2StateDeclaration[] = [
-
     {
         name: 'home',
         url: '/',
